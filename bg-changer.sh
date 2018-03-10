@@ -1,9 +1,10 @@
 #!/bin/bash
 
 # Timed background changer
+# Usage: bg-changer.sh /path/to/images &
 
 DIR=(
-  "/path/to/images"
+  "$1"
 );
 gsettings set org.gnome.desktop.background picture-options "zoom"
 
