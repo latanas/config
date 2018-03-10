@@ -1,7 +1,9 @@
 #!/bin/bash
 
+# Timed background changer
+
 DIR=(
-  "/home/atanas/Data/Graphics/Reference/Cosmos"
+  "/path/to/images"
 );
 gsettings set org.gnome.desktop.background picture-options "zoom"
 

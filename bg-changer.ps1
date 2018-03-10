@@ -1,5 +1,8 @@
 
+# Timed background changer
+
 # PoswerShell equivalent of bg-changer.sh
+# This will scan sub-folders recursively
 
 # Use at your own peril:
 # PowerShell.exe -ExecutionPolicy Unrestricted -WindowStyle hidden -NoLogo -NonInteractive -File bg-changer.ps1
@@ -65,6 +68,6 @@ Function Set-WallPaper($value)
 }
 
 while (1) {
-  Set-WallPaper -value 'D:\Data\Graphics\Reference\Cosmos'
+  Set-WallPaper -value 'C:\Path\To\Images'
   start-sleep -seconds 3600
 }
