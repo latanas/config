@@ -1,0 +1,48 @@
+"*":
+  core:
+    audioBeep: false
+    closeDeletedFileTabs: true
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".flowconfig"
+        ".hgrc"
+      ]
+      "source.json": [
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+    uriHandlerRegistration: "always"
+    warnOnLargeFileLimit: 10
+  editor:
+    fontFamily: "Iosevka"
+    fontSize: 18
+    invisibles: {}
+    showInvisibles: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "cc5bb3a6-cd8c-cb94-2a24-2b7a160499ae"
+  welcome:
+    showOnStartup: false
+".babel.regexp.source":
+  editor:
+    softWrap: true
+".css.source.styled":
+  editor:
+    softWrap: true
+".glsl.source":
+  editor:
+    softWrap: true
+".js.jsx.source":
+  editor:
+    softWrap: true
+".languagebabel.ttlextension":
+  editor:
+    softWrap: true
