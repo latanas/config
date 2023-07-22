@@ -1,3 +1,5 @@
+syntax on
+colorscheme pablo
 
 set laststatus=2
 set showmode
